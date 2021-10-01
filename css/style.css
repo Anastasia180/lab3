@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+body {
+    background: url(../img/white-background-1.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.ecler p{
+    font-weight: 400;
+    text-align: justify;
+}
+
+.ecler {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 0;
+}
+
+.about {
+    padding-top: 40px;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+h3 {
+font-size: 30px;
+}
+
+.gallery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ecler-left, .ecler-right {
+width: 48%;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+img {
+    max-height: 50vh;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #bbb;
+  }
+  
+
+  
+  .lightbox {
+    /* Default to hidden */
+    display: none;
+  
+    /* Overlay entire screen */
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /* A bit of padding around image */
+    padding: 1em;
+  
+    /* Translucent background */
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Unhide the lightbox when it's the target */
+  .lightbox:target {
+    display: block;
+  }
+  
+  .lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .footer {
+	background-color: #f5f5f5;
+}
+
+.footer__row {
+	display: flex;
+    flex-direction: column;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__text {
+	font-size: 18px;
+	color: #445162;
+    letter-spacing: .3px;
+}
